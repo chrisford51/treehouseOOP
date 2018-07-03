@@ -1,0 +1,168 @@
+[27-May-2018 22:03:58 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('index.html', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('index.html', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('index.html')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('index.html')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:03:58 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:44:21 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('index.html', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('index.html', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('index.html')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('index.html')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:44:21 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:44:23 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('index.html', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('index.html', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('index.html')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('index.html')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:44:23 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:45:05 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:45:05 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:45:06 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:45:06 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:45:20 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:45:20 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:46:23 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:46:23 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:46:24 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(27): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:46:24 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:46:55 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(25): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:46:55 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:48:38 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(25): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:48:38 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:51:22 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(25): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:51:22 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:51:24 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(757): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(25): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:51:24 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:52:25 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(755): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(25): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:52:25 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:56:31 America/New_York] PHP Warning:  Uncaught ErrorException: require_once(/Autoloader.php): failed to open stream: No such file or directory in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php:117
+Stack trace:
+#0 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): Slim\Slim::handleErrors(2, 'require_once(/A...', '/home/chrisdaw/...', 117, Array)
+#1 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(117): require_once()
+#2 /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php(86): Slim\Views\Twig->getInstance()
+#3 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(255): Slim\Views\Twig->render('about.twig', NULL)
+#4 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/View.php(243): Slim\View->fetch('about.twig', NULL)
+#5 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Slim.php(755): Slim\View->display('about.twig')
+#6 /home/chrisdaw/public_html/php/index.php(25): Slim\Slim->render('about.twig')
+#7 [internal function]: {closure}()
+#8 /home/chrisdaw/public_html/php/vendor/slim/slim/Slim/Route.php(46 in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
+[27-May-2018 22:56:31 America/New_York] PHP Fatal error:  Slim\Views\Twig::getInstance(): Failed opening required '/Autoloader.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/chrisdaw/public_html/php/vendor/slim/views/Twig.php on line 117
